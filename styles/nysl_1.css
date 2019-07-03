@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Balsamiq Sans;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(238, 238, 238, 0.2);
+    background-image: url(../images/banner.jpeg);
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    height: 250px;
+    margin: 20px 20px 0px 20px;
+}
+
+header img {
+    position: absolute;
+    top: 210px;
+    right: 40px;
+    height: 150px;
+}
+
+body h2 {
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 25px;
+    padding: 5px;
+    margin: 0px 20px 20px 20px; 
+}
+
+body main section h3 {
+    padding: 15px 15px 10px 20px;}
+
+body main section h4 {
+    padding: 20px 15px 5px 15px;
+    font: 20px;
+}
+
+body main section p {
+    margin-left: 30px;
+    font: 15px;
+    padding-bottom: 20px;
+}
+
+main {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 20px;
+    font: bold 20px;
+    width: 15%;
+}
+
+
+a {
+    font-size: 16px;
+    padding: 10px 10px 17px 0px;
+}
+
+#dir {
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    font-size: 23px
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px 20px 0px 0px;
+    width: 60%;
+}
+
+.active {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
